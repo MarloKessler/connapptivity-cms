@@ -1,0 +1,35 @@
+
+.text-element.align-left {
+    text-align: left;
+}
+
+.text-element.align-right {
+    text-align: right;
+}
+
+.text-element.align-center {
+    text-align: center;
+}
+
+.text-element.justify-text {
+    text-align: justify;
+}
+
+h1.text-element {
+    font-size: 2.2em;
+}
+
+h2.text-element {
+    font-size: 1.7em;
+}
+
+h3.text-element {
+    font-size: 1.3em;
+}
+
+p.text-element {
+    line-height: 2;
+    font-size: larger;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #222;
+}

@@ -1,0 +1,71 @@
+.ca-table {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 0 1px rgba(0,0,0,.12),0 1px 6px rgba(0,0,0,.03),0 6px 10px -8px rgba(0,0,0,.1);
+    border-collapse: collapse;
+}
+
+
+.ca-table thead {
+    display: none;
+}
+
+
+.ca-table th, .ca-table td {
+    padding: 10px 20px;
+    text-align: start;
+}
+
+.ca-table th {
+    color: gray;
+    background-color: #f8fafc;
+    font-size: small;
+    text-transform: uppercase;
+}
+
+
+.ca-table tr {
+    border-bottom: 1px solid #e8eaee;
+}
+
+.ca-table tbody tr {
+    cursor: pointer;
+    transition: .3s;
+}
+
+.ca-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.ca-table tbody tr:hover {
+    background-color: #f8fafc;
+    transition: .3s;
+}
+
+.ca-table tbody tr:active {
+    background-color: #eff1f3;
+    transition: .3s;
+}
+
+.ca-table tbody tr td {
+    transition: .3s;
+}
+
+.ca-table tbody tr:hover td {
+    transform: scale(.97);
+    transition: .3s;
+}
+
+.ca-table tr td:last-child {
+    width: 1%;
+    white-space: nowrap;
+}
+
+
+
+@media(min-width: 900px) {
+    .ca-table thead {
+        display: table-row-group;
+    }
+}

@@ -1,0 +1,18 @@
+.quotes-container {
+    padding: 10px 20px ;
+    margin: 20px 0;
+
+    line-height: 2;
+    font-size: larger;
+    font-style: italic;
+    color: #222;
+
+    border-left: 2px solid #efdf00;
+}
+
+.quote-author-name {
+    margin: 0;
+    text-align: right;
+    font-style: italic;
+    font-size: smaller;
+}

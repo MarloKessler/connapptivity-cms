@@ -1,0 +1,38 @@
+
+.loading-error-view {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+
+.le-actions {
+    margin-top: 50px;
+}
+
+
+.loading-error-view button {
+    padding: 10px;
+    transition: .3s;
+    border: 1px solid #343f44;
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+
+.loading-error-view button:hover {
+    transition: .3s;
+    transform: scale(.95);
+}
+
+
+.loading-error-view button:active {
+    transition: .3s;
+    background-color: #f5f5f5;
+}
+
+
+.loading-error-view a {
+    text-decoration: none;
+    color: #343f44;
+}

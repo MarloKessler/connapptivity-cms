@@ -1,0 +1,30 @@
+
+.publications-table .row-title h3, .ca-table .row-title p {
+    margin: 0;
+}
+
+.publications-table .row-title small {
+    color: gray
+}
+
+.status-tag {
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: smaller;
+}
+
+.status-tag.published {
+    color: #738a94;
+    background-color: rgba(115, 138, 148, 0.2);
+}
+
+.status-tag.scheduled {
+    color: #86ac28;
+    background-color: rgba(164,208,55,.2);
+}
+
+.status-tag.draft {
+    color: #ad26b4;
+    background-color: rgba(173,38,180,.2);
+}

@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "production": "connapptivity",
+    "development": "connapptivity-dev",
+    "default": "connapptivity-dev"
+  },
+  "targets": {
+    "connapptivity": {
+      "hosting": {
+        "frontend": [
+          "connapptivity"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+
+.table-container {
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+}
+
+.table-container.center {
+    justify-content: center;
+}
+
+.table-container.left {
+    justify-content: flex-start;
+}
+
+.table-container.right {
+    justify-content: flex-end;
+}
+
+.table-container.fullWidth table {
+    width: 100%;
+}
+
+.table-container table {
+    border-collapse: collapse;
+}
+
+.table-container table, .table-container th, .table-container td {
+    border: 1px solid black;
+}
+
+.table-container th, .table-container td {
+    padding: 10px 20px;
+}
+

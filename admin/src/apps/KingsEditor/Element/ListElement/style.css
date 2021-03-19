@@ -1,0 +1,8 @@
+.list li {
+    margin: 20px 0;
+    line-height: 2;
+    font-size: larger;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #222;
+    text-align: left;
+}

@@ -1,0 +1,65 @@
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #343f44;
+}
+
+input:focus, textarea:focus, select:focus, button {
+  outline: none;
+}
+
+textarea {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Dark Mode */
+/*@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #151515;
+  }
+}*/
+
+.App {
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  
+  text-align: center;
+}
+
+.Content {
+  flex: 1;
+  overflow-y: scroll;
+  display: flex;
+}

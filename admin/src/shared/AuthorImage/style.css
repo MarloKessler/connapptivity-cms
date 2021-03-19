@@ -1,0 +1,18 @@
+
+.author-image {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.author-image .image {
+    object-fit: cover;
+}
+
+.author-image .person-image-placeholder {
+    width: 135%;
+    height: 135%;
+    margin: -17.5% -17.5%;
+    background-color: white;
+    border-radius: 50%;
+    fill: lightgray;
+}

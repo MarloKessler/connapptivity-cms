@@ -1,0 +1,98 @@
+
+.author-input {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ai-chevron {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+}
+
+.authors-pane {
+    width: 100%;
+    max-width: 200px;
+    max-height: 50%;
+
+    z-index: 1;
+    display: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    overflow-y: scroll;
+    background-color: white;
+}
+
+.authors-pane.show {
+    display: block;
+}
+
+
+.ap-list {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.ap-list .search-input-container {
+    
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    height: 25px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.ap-list input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.author-card {
+    margin: 2px;
+    padding: 3px;
+    transition: .3s;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.author-card.clickable {
+    cursor: pointer;
+}
+
+.author-card.clickable:hover {
+    transition: .3s;
+    background-color: rgba(190, 190, 190, 0.5);
+}
+
+.author-card.clickable:active {
+    transition: .3s;
+    background-color: rgba(210, 210, 210, 0.5);
+}
+
+
+.author-card .author-image {
+    flex-shrink: none;
+    width: 40px;
+    height: 40px;
+}
+
+.author-card .author-name {
+    padding: 0 0 0 10px;
+    font-weight: 600;
+}

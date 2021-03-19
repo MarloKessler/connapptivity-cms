@@ -1,0 +1,50 @@
+.ytvideo-container {
+    margin: 20px 0;
+}
+
+.iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    width: 100%;
+    height: 0;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.url-input-container {
+    margin: 0 auto 10px;
+    padding: 0 10px;
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    
+    color: #efdf00;
+    background-color: black;    
+
+    border-radius: 5px;
+}
+
+.url-input-container .url-input-label {
+    padding: 15px 5px 15px 0;
+}
+
+.url-input-container .url-input {
+    margin: auto 0;
+    padding: 5px;
+    width: 60%;
+    
+    color: #ddd;
+    background-color: black;
+
+    border: 1px solid #777;
+    border-radius: 5px;
+}

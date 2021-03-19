@@ -1,0 +1,66 @@
+
+.publishable-overview {
+    width: 100%;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+.publishable-overview header {
+    padding: 20px 20px 0;
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 1;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+}
+
+.publishable-overview h1 {
+    text-align: start;
+}
+
+.publishable-overview .toolbar {
+    margin: auto 0 auto auto;
+    height: fit-content;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.new-publishable-button {
+    padding: 10px;   
+
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 1px rgb(228, 228, 228);
+
+    cursor: pointer;
+    font-size: small;
+    color: white;
+    background-color: #efdf00;
+    transition: .3s;
+}
+
+.new-publishable-button:hover {
+    transform: scale(.95);
+    transition: .3s;
+}
+
+.new-publishable-button:active {
+    background-color: #e7d800;
+    transition: .3s;
+}
+
+.publishable-overview .pub-table-container {
+    padding: 20px 20px 40px ;
+}

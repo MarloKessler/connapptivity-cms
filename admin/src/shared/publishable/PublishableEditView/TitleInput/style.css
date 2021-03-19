@@ -1,0 +1,33 @@
+.publishable-title.title-input {
+    color: black;
+}
+
+
+.publishable-title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+
+@media(min-width: 300px) {
+    .publishable-title {
+        font-size: 2.5em;
+    }
+}
+
+
+
+@media(min-width: 600px) {
+    .publishable-title {
+        font-size: 3em;
+    }
+}
+
+
+
+@media(min-width: 900px) {
+    .publishable-title {
+        font-size: 3.5em;
+    }
+}

@@ -1,0 +1,217 @@
+
+.publishable-edit-view {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+.publishable-edit-view .pe-bar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+}
+
+
+.publishable-edit-view .pe-status-bar {
+    padding: 10px 10px 0;
+    font-size: smaller;
+    color: #999;
+}
+
+
+.publishable-edit-view .pe-toolbar {
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 1;
+    padding: 5px;
+    border-bottom: 1px solid rgb(36, 36, 36);
+}
+
+
+.publishable-edit-view .pe-toolbar .header-button {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: medium;
+    color: #efdf00;
+    background-color: transparent;
+}
+
+.publishable-edit-view .pe-toolbar .header-button:hover {
+    transition: .3s;
+    transform: scale(.95);
+    background-color: rgba(245, 245, 245, 0.5);
+}
+
+.publishable-edit-view .pe-toolbar .header-button:active {
+    transition: .3s;
+    color: #efdf00;
+    background-color: rgba(230, 230, 230, 0.5);
+}
+
+
+.publishable-edit-view .pe-toolbar .kings-toolbar {
+    flex: 0 0 100%;
+    order: 2;
+}
+
+.publishable-edit-view .back-link {
+    margin-right: auto;
+}
+
+
+.publishable-edit-view .publish-menu-button {
+    margin: 0 10px 0 auto;
+    width: 30px;
+    height: 30px;
+}
+
+.publishable-edit-view .publish-menu-button svg {
+    width: 100%;
+    height: 100%;
+}
+
+.publishable-edit-view .publish-menu {
+    display: none;
+}
+
+.publishable-edit-view .publish-menu.show {
+    display: block;
+}
+
+
+.title-input {
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+    border: none;
+    color: inherit;
+    background-color: transparent;
+}
+
+.publishable-meta-infos {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.publishable-share-options-button {
+    margin-left: auto;
+    width: 20px;
+    height: 20px;
+}
+
+
+.editable-container {
+    width: 100%;
+}
+
+.editable {
+    margin: 20px auto 40px;
+    max-width: 680px;
+    width: auto;
+}
+
+.tags-input {
+    border-top: 1px solid lightgray;
+}
+
+
+.delete-publishable-view {
+    margin: 50px 0;
+}
+
+.delete-publishable-view button {
+    border: none;
+    font-size: medium;
+    background: transparent;
+}
+
+.dp-delete-btn {
+    color: rgb(255, 73, 73);
+}
+
+.dp-delete-btn:hover {
+    text-decoration: underline;
+}
+
+.dp-confirmation-button-bar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dp-confirmation-button-bar p {
+    margin: 0;
+    flex: 1 1 100%;
+}
+
+.dp-confirmation-button-bar button {
+    margin: 10px;
+    transition: .3s;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.dp-cancel-btn {
+    color: #343f44;
+    border-color: #343f44;
+}
+
+.dp-cancel-btn:hover {
+    transition: .3s;
+    background-color: rgba(230, 230, 230, 0.5);
+}
+
+.dp-cancel-btn:active {
+    transition: .3s;
+    background-color: rgba(240, 240, 240, 0.5);
+}
+
+.dp-confirmation-button-bar .dp-confirm-delete-btn {
+    border-color: transparent;
+    color: white;
+    background-color: rgb(255, 73, 73);
+}
+
+.dp-confirm-delete-btn:hover {
+    transition: .3s;
+    background-color: rgb(223, 64, 64);
+}
+
+.dp-confirm-delete-btn:active {
+    transition: .3s;
+    background-color: rgb(240, 68, 68);
+}
+
+
+
+@media(min-width: 600px) {
+    .publishable-edit-view .pe-toolbar {
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .publishable-edit-view .pe-toolbar .kings-toolbar {
+        flex: 1;
+        order: 0;
+    }
+}

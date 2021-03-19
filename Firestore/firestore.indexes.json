@@ -1,0 +1,55 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "postpreviews",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "author.id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "publication_state",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "publication_date",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "postpreviews",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "publication_state",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "publication_date",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "postpreviews",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "tags",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "publication_state",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "publication_date",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

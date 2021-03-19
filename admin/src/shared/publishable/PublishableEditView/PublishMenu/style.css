@@ -1,0 +1,85 @@
+
+.publish-menu {
+    width: 100%;
+    max-width: 260px;
+    margin: 0 auto;
+    padding: 10px 5px;
+    z-index: 1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 1px #eee;
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+}
+
+.publish-menu table {
+    border: none;
+    border-collapse: collapse;
+}
+
+.publish-menu table td {
+    padding: 0;
+    border: none;
+    vertical-align: top;
+    text-align: start;
+}
+
+.publish-menu table .radio-cell {
+    padding: 5px;
+}
+
+.publish-menu table .option-cell {
+    padding: 5px;
+}
+
+.publish-menu table .option-cell span {
+    cursor: pointer;
+}
+
+.publish-menu .dt-picker {
+    margin-top: 5px;
+    padding-right: 20px;
+}
+
+.publish-menu button {
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.publish-menu button:hover {
+    transition: .3s;
+    transform: scale(.95);
+}
+
+.publish-menu .confirm-button {
+    margin-top: 15px;
+    padding: 10px;
+    box-shadow: 0 0 1px 1px #eee;
+    border-radius: 50px;
+    font-weight: bold;
+    color: white;
+    background-color: #efdf00;
+}
+
+.publish-menu .confirm-button:active {
+    transition: .3s;
+    background-color: #e0d202;
+}
+
+.publish-menu .cancel-button {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.publish-menu .cancel-button:hover {
+    background-color: #e5e5e5;
+}
+
+.publish-menu .cancel-button:active {
+    background-color: #eee;
+}

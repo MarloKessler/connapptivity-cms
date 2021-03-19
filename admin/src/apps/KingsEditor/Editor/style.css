@@ -1,0 +1,49 @@
+
+.editor-container {
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.editor-container .toolbar {
+    padding: 5px;
+    background-color: black;
+    border-radius: 5px 5px 0 0;
+}
+
+.editor-container .toolbar .toolbar-divider {
+    display: inline;
+    color: lightgray;
+}
+
+.menu-button {
+    min-width: 27px;
+    padding: 5px;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-size: medium;
+    border: none;
+    color: white;
+    background-color: transparent;
+    transition: .2s;
+}
+
+.menu-button:hover {
+    background-color: #555;
+    transform: scale(0.9);
+    transition: .2s;
+}
+
+.menu-button.active {
+    background-color: #efdf00;
+}
+
+.menu-button.click-effect:active {
+    background-color: #777;
+    transition: .2s;
+}
+
+.editor-container .textfield {
+    padding: 0 20px;
+    border: 1px solid lightgray;
+    border-radius: 0 0 5px 5px;
+}

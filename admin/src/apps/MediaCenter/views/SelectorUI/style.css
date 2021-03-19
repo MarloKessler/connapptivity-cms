@@ -1,0 +1,45 @@
+
+.selector-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+
+    background-color: rgba(255, 255, 255, 0.5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selector {
+    width: 50%;
+    height: 50%;
+
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 10px #ddd;
+
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;    
+}
+
+.items-grid {
+    width: 100%;
+    height: 90%;
+}
+
+.selector-toolbar {
+    
+    margin-top: auto;
+    padding: 10px;
+    
+    border-top: 1px solid lightgray;
+    background-color: black;
+
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,22 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      match /authors/{author} {
+        	allow read
+      }
+      match /posts/{post} {
+        	allow read: if resource.data.publication_state == "published"
+      }
+      match /postpreviews/{postpreview} {
+        	allow read: if resource.data.publication_state == "published"
+      }
+      match /pages/{page} {
+        	allow read: if resource.data.publication_state == "published"
+      }
+      allow read, write: if request.auth.token.owner == true
+                          || request.auth.token.admin == true
+                          || request.auth.token.author == true
+    }
+  }
+}

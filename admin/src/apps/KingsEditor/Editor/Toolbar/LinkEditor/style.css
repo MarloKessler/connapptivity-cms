@@ -1,0 +1,33 @@
+
+.link-editor {
+    position: absolute;
+    z-index: 1;
+    
+    padding: 5px;
+
+    display: none;
+    opacity: 0;
+    background-color: black;
+
+    border-radius: 4px;
+    transition: opacity 0.3s;
+}
+
+.link-editor.display-self {
+    display: block;
+}
+
+.link-editor.visible {
+    opacity: 1;
+}
+
+.link-editor .link-label {
+    color: white;
+    margin: auto 5px auto 2px;
+}
+
+.link-editor .link-input {
+    margin: auto 0;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
